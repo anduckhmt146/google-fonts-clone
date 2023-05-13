@@ -1,0 +1,28 @@
+.fontcard {
+  border-top: #adadad solid 1px;
+  width: 100%;
+  min-height: 200px;
+  padding: 15px 5px;
+  -webkit-animation: opacity-in 0.5s ease-in;
+          animation: opacity-in 0.5s ease-in;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+.fontcard .font-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.fontcard .fa {
+  color: #ff5656;
+  font-size: 22px;
+  cursor: pointer;
+}

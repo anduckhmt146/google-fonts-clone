@@ -1,0 +1,48 @@
+.bottom-drawer {
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  width: 600px;
+  background: white;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  z-index: 100;
+}
+
+.bottom-drawer .bottom-drawer-head {
+  height: 50px;
+  background: #383838;
+  color: white;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.bottom-drawer .bottom-drawer-main {
+  position: relative;
+  padding: 10px 20px;
+  height: 290px;
+  overflow: auto;
+}
+
+.bottom-drawer .clear-all-fonts {
+  cursor: pointer;
+  position: absolute;
+  top: 11px;
+  left: 160px;
+  color: #ff5656;
+}
+
+.bottom-drawer .fa-minus-circle {
+  cursor: pointer;
+  color: #ff5656;
+}
+
+.bottom-drawer .code {
+  padding: 11px;
+  margin-bottom: 30px;
+  background: rgba(0, 0, 0, 0.08);
+  word-break: break-all;
+  font-family: "Roboto Mono", monospace;
+}

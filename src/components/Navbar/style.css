@@ -1,0 +1,35 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 64px;
+  border-bottom: solid 1px #adadad;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 50px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.google-fonts-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.google-fonts-title h1 {
+  font-size: 22px;
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+.google-fonts-title .google-logo {
+  width: 74px;
+  height: 24px;
+  position: relative;
+  bottom: -1px;
+}

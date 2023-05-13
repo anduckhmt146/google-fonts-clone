@@ -1,0 +1,50 @@
+.fontcards-container {
+  max-width: 1600px;
+  margin: 30px auto 200px auto;
+}
+
+.sticky-fontcards {
+  position: relative;
+  top: 75px;
+}
+
+.fontcards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 50px;
+  width: 90%;
+  margin: 0px auto 30px auto;
+}
+
+
+.to-top {
+  height: 55px;
+  width: 55px;
+  position: fixed;
+  left: 80px;
+  bottom: 80px;
+  border: solid #d6d6d6 1px;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 2px 5px #adadad;
+          box-shadow: 2px 2px 5px #adadad;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+}
+
+.to-top:hover {
+  cursor: pointer;
+  background: #d6d6d6;
+}
+
+.to-top .fa {
+  font-size: 30px;
+  color: #5f5f5f;
+}

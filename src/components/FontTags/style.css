@@ -1,0 +1,21 @@
+.font-tag {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+  margin: 3px 10px 3px 0;
+  padding: 0 15px;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.font-tag p {
+  margin-right: 5px;
+}
+
+.font-tag .fa {
+  font-size: 18px;
+}

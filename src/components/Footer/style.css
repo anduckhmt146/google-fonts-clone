@@ -1,0 +1,19 @@
+footer {
+  text-align: center;
+  font-size: 14px;
+  background: white;
+  padding-top: 2px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 150;
+}
+
+footer a {
+  color: #ff5656;
+}
+
+footer a:visited {
+  color: #ff5656;
+}
