@@ -21,7 +21,7 @@ Deploy: https://anduckhmt146.github.io/google-fonts-clone/
 * Extended Features:
   * Support Dark/Light Mode.
   * Allow Grid/List Layout.
-  * Back-to-top buttons
+  * Back-to-top button.
 
 # Contact
 
